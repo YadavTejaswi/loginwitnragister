@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica Neue;
+    background-color: whitesmoke ;
+
+}
+.wrap{
+    width: 100%;
+}
+.container{
+    max-width: 375px;
+    height: 812px;
+    margin: 10px auto;
+    background-color: #fff;
+
+}
+
+p{
+    color: rgb(163, 161, 161);
+    font-size: 17px;
+}
+.logo img{
+    margin-top:15px;
+    margin-left:25px;
+    height:45px; 
+ }
+
+
+.content_sec{
+    text-align: center;
+    margin-top: 34px;
+}
+.content_sec p{
+    margin-top: 18px;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+
+.image_sec{
+    margin-top: 70px;
+}
+.image_sec img{
+    height: 289px;
+    margin: 0 42px;
+   
+}
+
+.btn{
+    margin-top: 43px;
+    display: flex;
+}
+.btn a{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 35px;
+    min-width: 146px;
+    border: 2px solid blue;
+    text-decoration: none;
+    background: blue;
+    border-radius: 50px;
+    margin: 0 10px;
+    text-align: center;
+    margin-left: 28px;
+    height: 50px;
+}
+.btn a.btn_2 {
+    background: #fff;
+    color: #000;
+    border-color: #000;
+    margin-right: 34px;
+    margin-left: 19px;
+}
+.social_sec{
+    text-align: center;
+    margin-top: 57px;
+}
+.social_sec p{
+    margin-bottom: 20px;
+}
+
+.icons{
+    margin-bottom: 42px;
+    margin: 0 100px;
+    margin-top: 20px;
+    margin-left: 117px ;
+   
+}
+.icons a{
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    background: #fff;
+    border: 1px solid blue;
+    border-radius: 5rem;
+    font-size: 1rem;
+    color: blue;
+    margin-right: 12px;
+    transition: .4s;
+    text-decoration: none;
+}
+.icons a:hover{
+    background: blue;
+    transform: rotate(360deg);
+    color: #fff;
+}

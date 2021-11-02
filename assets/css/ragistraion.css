@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica Neue;
+    background-color: whitesmoke ;
+
+}
+.wrap{
+    width: 100%;
+}
+.container{
+    max-width: 375px;
+    height: 812px;
+    margin: 10px auto;
+    background-color: #fff;
+
+}
+.logo img{
+    margin-top:25px;
+    margin-left:28px;
+    height:30px; 
+    width: 93px;
+ }
+ .heading{
+     margin-top: 25px;
+     text-align: center;
+ }
+ .heading p{
+     margin-top: 19px;
+     color: rgb(167, 161, 161);
+
+ }
+ .image_sec{
+    margin-top: 18px;
+}
+.image_sec img{
+    width: 267px;
+    height: 227px;
+    margin: 0 52px;
+   
+}
+form{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+input {
+  border: none;
+  border-bottom: 2px solid #225dd9;
+  width: 80%;
+  padding: 0 25px;
+}
+.icon {
+  font-size: 30px;
+  color: #225dd9;
+}
+.icon-one {
+  font-size: 30px;
+  color: rgb(194, 189, 189);
+}
+.input-text {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  .input-password {
+    position: relative;
+  }
+  
+  input:focus {
+    outline: 0;
+  }
+ 
+  .span-icon {
+    position: absolute;
+  }
+.forget-pass {
+    margin-top: 10px;
+   float: right;
+   margin-right: 48px;
+   color: rgb(199, 196, 196);
+   margin-bottom: 28px;
+}
+
+
+
+.btn{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 91px;
+    padding-top: 28px;
+
+}
+.btn a{
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid blue;
+    text-decoration: none;
+    background: blue;
+    border-radius: 50px;
+    text-align: center;
+    width: 193px;
+    height: 54px;
+    line-height: 50px;
+    
+}
+.btn a.btn_2 {
+    width: 100px;
+margin-left: 45px;
+    background: #fff;
+    color:blue;
+    font-size: 16px;
+     border: none; 
+     margin-right: 135px;
+     margin-top: 6px;   
+}
+
+.social_sec{
+    text-align: center;
+    margin-top: 30px;
+}
+.social_sec p{
+    margin-bottom: 6px;
+    color: rgb(170, 168, 168);
+}
+
+.icons{
+    margin-top: 25px;
+    margin-bottom: 35px;
+    margin: 0 109px;
+    margin-left: 122px ;
+}
+.icons a{
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    background: #fff;
+    border: 1px solid blue;
+    border-radius: 5rem;
+    font-size: 1rem;
+    color: blue;
+    margin-right: 10px;
+    transition: .4s;
+    text-decoration: none;
+}
+.icons a:hover{
+    background: blue;
+    transform: rotate(360deg);
+    color: #fff;
+}
